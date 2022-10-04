@@ -6,6 +6,7 @@ import time
 import logging
 import hashlib
 import datetime
+import config
 from PIL import Image
 from pyffmpeg import FFmpeg, FFprobe
 from telegram.ext import Updater, CommandHandler
@@ -441,11 +442,13 @@ def help(update, context):
 
 if __name__ == "__main__":
     try:
-        with open('config.json', 'r') as f: config = json.load(f)
-        sudoList = config['sudoList']
-        botToken = config['botToken']
+        #with open('config.json', 'r') as f: config = json.load(f)
+        #sudoList = config['sudoList']
+        #botToken = config['botToken']
+        sudoList = config.SUDOLIST
+        botToken = config.BOT_TOKEN
     except:
-        config ={"database": "database-name.db", "botToken": "bot-token-here", "sudoList": [12345678, 87654321]}
+        config ={"database": "database-name.db", "botToken": "bot-token-here", "sudoList": [12345678, 1412909688]}
         with open('config.json', 'w') as f: json.dump(config, f, indent=4)
         print('Edit the config.json and add all necessary information.')
 

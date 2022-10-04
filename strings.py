@@ -1,4 +1,4 @@
-START = "Yes, I'm Kazuma."
+START = "Yes, I'm Sticker Mage."
 RESTART = "Re;Starting Bot in Another Instance from Zero."
 GITPULL = "Re;Starting Bot in Another Instance from the Latest Commit."
 NOT_SUDO = "This is a developer restricted command.\nYou do not have permissions to run this."
@@ -15,18 +15,18 @@ REPLY_NOT_STICKER_IMAGE = "This skill only works on stickers, images and videos.
 REPLY_VID_DURATION_ERROR = "The video is too long ({}s)!\nMax duration is 3 seconds"
 REPLY_VID_SIZE_ERROR = "The video is too big ({}KB)!\nMax size is 256KB"
 
-STEAL_ERROR = "I couldn't steal that sticker. Blame Aqua for being so useless."
+STEAL_ERROR = "I couldn't steal that sticker. Blame Goblin for being so useless."
 STEAL_NOT_REPLY = "Reply to an image or a sticker to steal."
 STEAL_SUCESSFUL = "Steal sucessful! Here's your [steal pack](t.me/addstickers/{})."
 STEAL_SKIPPED = "Steal sucessful but some stickers might've been skipped. Here's your [steal pack](t.me/addstickers/{})."
 STEALPACK_NO_ARGS = "Specify a packname to steal stickers into. Like this:\n/stealpack _<pack-name>_"
 STEALPACK_NOT_REPLY = "Reply to a sticker and send:\n/stealpack _<pack-name>_"
 
-NEWPACK_ERROR = "I was unable to create that sticker pack. Must be the Demon King's magic."
+NEWPACK_ERROR = "I was unable to create that sticker pack. Must be the Nine Tailed Fox's magic."
 RESIZE_ERROR = "Unable to resize image to the correct dimensions."
 INVALID_EMOJI = "Some of the emojis you specified are not supported."
 INVALID_PACKNAME = "The pack name or emojis you specified contain unsupported characters."
-INVALID_PEER_ID = "Freshly isekai-d? Click the button to join my guild!"
+INVALID_PEER_ID = "Freshly Reincarnated? Click the button to join my Gang!"
 PACK_DOESNT_EXIST = "What you're trying to steal doesn't exist.\n( ͡° ͜ʖ ͡°)"
 PACK_LIMIT_EXCEEDED = "This pack has reached maximum capacity. You can /switch to a different pack or make a new one."
 PACK_ALREADY_EXISTS = "I think you're looking for [this pack](t.me/addstickers/{})."
@@ -36,23 +36,23 @@ ANIMATED_IN_UNANIMATED = "You can't add animated stickers in a normal sticker pa
 NOT_YOUR_PACK = "Hah! Nice try but you can't mess with others' stickers."
 
 DELETE_PACK = "This is beyond my powers. Use @stickers to delete sticker packs."
-DELETE_ERROR = "I couldn't delete that sticker. Looks like those Arch-Devils are at it again."
+DELETE_ERROR = "I couldn't delete that sticker. Looks like those Evil Spirits are at it again."
 DELETE_SUCESSFUL = "Poof! The sticker is gone."
 DELETE_NOT_REPLY = "This skill only works on stickers of packs that I have stolen."
 
 SETPOSITION_INVALID_INPUT = "That's not how this skill works. Reply to a sticker and try:\n/setposition _<position-number>_"
 SETPOSITION_NOT_REPLY = "Reply to the sticker whose position you wanna change."
-SETPOSITION_ERROR = "I couldn't change sticker positions. Maybe the undead are interfering with my magic."
+SETPOSITION_ERROR = "I couldn't change sticker positions. Maybe the Mages are interfering with my magic."
 
 SWITCH_INVALID_INPUT =  "Specify the pack you want to be set as default by:\n/switch _<pack-name>_\n/switch _<pack-index-number>_"
 SWITCH_PACK_DOESNT_EXIST = "I don't think this pack exists. Use /mypacks to get a list of packs that you've stolen."
 SWITCH_ALREADY_DEFAULT = "*{}* is already set as your default pack."
 SWITCH_CHANGED_DEFAULT = "*{}* is now set as your default pack."
-SWITCH_INDEX_ERROR = "I couldn't switch default packs. Maybe those Axis Cult members are interfering with my magic."
-SWITCH_PACKNAME_ERROR = "I couldn't switch default packs. Maybe those Eris Cult members are interfering with my magic."
+SWITCH_INDEX_ERROR = "I couldn't switch default packs. Maybe those Evil Mages are interfering with my magic."
+SWITCH_PACKNAME_ERROR = "I couldn't switch default packs. Maybe Assassin Naksu interfering with my magic."
 
 HELP = """
-Hi, I'm Kazuma.
+Hi, I'm Sticker Mage.
 Here's a list of skills that I can use:
 
 /steal - Steal a sticker
