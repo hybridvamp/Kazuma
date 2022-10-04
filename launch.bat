@@ -1,2 +1,2 @@
 @echo off
-py kazuma.py
+py mage.py

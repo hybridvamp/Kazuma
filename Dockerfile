@@ -5,4 +5,4 @@ COPY . .
 
 RUN pip3 install -r requirements.txt
 
-CMD ["python3", "kazuma.py"]
+CMD ["python3", "mage.py"]
