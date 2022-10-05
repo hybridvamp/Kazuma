@@ -13,7 +13,7 @@ from telegram.ext import Updater, CommandHandler
 from telegram import Bot, TelegramError, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 
 import strings as s
-import Config.DATABASE as sql
+import config.DATABASE as sql
 
 def steal(update, context):
     msg = update.effective_message
