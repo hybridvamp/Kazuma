@@ -6,7 +6,7 @@ import time
 import logging
 import hashlib
 import datetime
-import config
+from config import Config
 from PIL import Image
 from pyffmpeg import FFmpeg, FFprobe
 from telegram.ext import Updater, CommandHandler
