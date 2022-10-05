@@ -12,8 +12,10 @@ from pyffmpeg import FFmpeg, FFprobe
 from telegram.ext import Updater, CommandHandler
 from telegram import Bot, TelegramError, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 
+database = Config.DATABASE
+
 import strings as s
-import config.DATABASE as sql
+import database as sql
 
 def steal(update, context):
     msg = update.effective_message
